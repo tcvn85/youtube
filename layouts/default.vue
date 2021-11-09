@@ -1,0 +1,14 @@
+<template>
+  <div class="wrapper relative">
+    <nuxt-link class="icon-home fixed top-4 left-4" to="/">
+      <svg width="30" height="30" aria-hidden="true" focusable="false" data-prefix="fad" data-icon="home-lg" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-home-lg fa-w-18 fa-2x"><g class="fa-group"><path fill="currentColor" d="M496 512H368a16 16 0 0 1-16-16V368a16 16 0 0 0-16-16h-96a16 16 0 0 0-16 16v128a16 16 0 0 1-16 16H80a16 16 0 0 1-16-16V311c1.78-1.21 3.85-1.89 5.47-3.35L288 115l218.74 192.9c1.54 1.38 3.56 2 5.26 3.2V496a16 16 0 0 1-16 16z" class="fa-secondary"></path><path fill="currentColor" d="M527.92 283.88L298.6 81.61a16 16 0 0 0-21.17 0L48.11 283.89a16 16 0 0 1-22.59-1.21L4.1 258.89a16 16 0 0 1 1.21-22.59l256-226a39.85 39.85 0 0 1 53.45 0L416 99.67V48a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v136.43l58.69 51.83a16 16 0 0 1 1.22 22.59l-21.4 23.82a16 16 0 0 1-22.59 1.21z" class="fa-primary"></path></g></svg>
+    </nuxt-link>
+    <main class="container mx-auto">
+      <Nuxt />
+    </main>
+  </div>
+</template>
+
+<script>
+export default {}
+</script>
